@@ -1,0 +1,82 @@
+//option optimize_for = SPEED;
+
+//import "../../share_proto/db_data.proto";
+//import "./proto/db_data.proto";
+
+package db_proto; 
+
+enum TestEnum
+{
+	T1 = 1; 
+	T2 = 2;
+}
+
+message TestTable
+{		
+	optional uint64			id = 265;	
+	optional uint32			name_32 = 2;			
+	optional uint64			name_64 = 3;		
+	optional bool			name_bool = 4;	
+	optional string			name_str = 53;
+	optional bytes			name_bytes = 233;
+	optional TestEnum		name_enum = 133;	
+
+}
+
+message ReqSelectTable
+{
+	optional string			msg_name = 1;		//对应的proto消息体必须有id字段作为key
+	optional string			cond = 3;			//条件查询字符串, SQL where 后面的字符串， 例如"id=2"
+	optional uint32			limit_num = 4;		//限制查询数量 sql 的"limit num".
+}
+message RspSelectTable
+{
+	optional string			msg_name = 1;		//对应的proto消息体必须有id字段作为key
+	optional bytes			data = 2;			//proto serialize data
+	optional bool			is_last = 3;		//true表示最后一条数据		
+}
+
+message ReqCreateTable
+{
+	optional string			msg_name = 1;  //对应的proto消息体必须有id字段作为key
+}
+
+message ReqInsertData
+{
+	optional string			msg_name = 1;
+	optional bytes			data = 2;			//proto serialize data 
+}
+message RspInsertData
+{
+	optional string			msg_name = 1;
+}
+
+
+message ReqUpdateData
+{
+	optional string			msg_name = 1;
+	optional bytes			data = 2;			//proto serialize data 
+}
+message RsqUpdateData
+{
+	optional string			msg_name = 1;
+}
+
+message ReqDelData
+{
+	optional string			msg_name = 1;
+	optional string			cond = 2;			
+}
+message RsqDelData
+{
+	optional string			msg_name = 1;
+}
+
+message TTT3
+{
+	optional uint64 id = 13;
+	optional uint32 t = 1;
+	optional uint32 t2 = 2;
+	optional string t23 = 32;
+}
+

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{91c4144d-f652-420e-a0d1-8229462666ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{2537e097-d1ea-421d-b297-267181dff89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include">
+      <UniqueIdentifier>{e0f29326-28ec-491f-88de-da377380e9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include\mysql_connector">
+      <UniqueIdentifier>{2cd91c34-4839-40cb-b6c0-5324158372be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include\mysql_connector\include">
+      <UniqueIdentifier>{0b7e80c4-57fc-4797-8ed0-153e34698823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include\mysql_connector\include\cppconn">
+      <UniqueIdentifier>{919566dc-d957-4b09-9ea0-30af66567dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\test">
+      <UniqueIdentifier>{1be78e34-a2b4-446c-924c-99748edf0418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proto">
+      <UniqueIdentifier>{20770e2b-8fee-47b1-85cd-d1db8cc0af5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\utility\logFile.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test\mysql_connecter.cc">
+      <Filter>src\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\proto\types.pb.cc">
+      <Filter>src\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\db_proxy_test.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\db_proxy.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\utility\logFile.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utility\typedef.h">
+      <Filter>src\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\test\mysql_connecter.h">
+      <Filter>src\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\proto\types.pb.h">
+      <Filter>src\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\exception.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\metadata.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\parameter_metadata.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\prepared_statement.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\resultset.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\resultset_metadata.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\sqlstring.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\statement.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\variant.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\version_info.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\warning.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\build_config.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\config.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\connection.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\datatype.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\cppconn\driver.h">
+      <Filter>src\include\mysql_connector\include\cppconn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\mysql_connection.h">
+      <Filter>src\include\mysql_connector\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\mysql_driver.h">
+      <Filter>src\include\mysql_connector\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mysql_connector\include\mysql_error.h">
+      <Filter>src\include\mysql_connector\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\db_proxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\proto\types.proto">
+      <Filter>src\proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+option optimize_for = SPEED;
+
+
+// 玩家位置朝向
+message DDTERT1 {
+  optional int32 real_loc_x = 1;
+  optional int32 real_loc_y = 2;
+
+}
