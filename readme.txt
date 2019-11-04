@@ -1,5 +1,7 @@
-checkout ÏÂÀ´£¬±àÒë£¬ÔËĞĞ²½Öè
+æœ‰æ›´å¥½çš„å®ç°ï¼Œdbproxy. åœæ­¢æ›´æ–°è¿™é‡Œï¼Œä»¥ååˆ é™¤ã€‚
+
+checkout ä¸‹æ¥ï¼Œç¼–è¯‘ï¼Œè¿è¡Œæ­¥éª¤
 )../debug/touch hello			
-)../src/proto/sh build.sh		#±ØĞëÓÃÕâÁ½²¿Éú³É hello ÎÄ¼ş£¬ºÍproto cppÎÄ¼ş£¬makefile²ÅÆğ×÷ÓÃ¡££¨´ı¸ÄÉÆ£©
-) ../debug/sh build.sh			#cmake´´½¨
-) ../sh restart					#¸ù¾İÒÀÀµ¹ØÏµ£¬Éú³Éproto,±àÒë£¬ÖØÆô
+)../src/proto/sh build.sh		#å¿…é¡»ç”¨è¿™ä¸¤éƒ¨ç”Ÿæˆ hello æ–‡ä»¶ï¼Œå’Œproto cppæ–‡ä»¶ï¼Œmakefileæ‰èµ·ä½œç”¨ã€‚ï¼ˆå¾…æ”¹å–„ï¼‰
+) ../debug/sh build.sh			#cmakeåˆ›å»º
+) ../sh restart					#æ ¹æ®ä¾èµ–å…³ç³»ï¼Œç”Ÿæˆproto,ç¼–è¯‘ï¼Œé‡å¯
