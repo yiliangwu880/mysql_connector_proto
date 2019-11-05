@@ -1,4 +1,4 @@
-有更好的实现，dbproxy. 停止更新这里，以后删除。
+有更好的实现，参考：git@github.com:yiliangwu880/dbproxy.git. 停止更新这里，以后删除。
 
 checkout 下来，编译，运行步骤
 )../debug/touch hello			
